@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 0px solid white;
+  background-color: white;
+  color: gray;
+  opacity:0.95;
+  width: 500px;
+  margin-top: 7%;
+  margin-left: 31%;
+  margin-right: 50%;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1 {
+  padding: 30px;
+}
+ul {
+  line-height: 30px;
+  padding: 30px;
+  list-style-type: none;
+  text-align: left;
+}
+body {
+  background-image: url("https://blog.prezi.com/wp-content/uploads/2019/03/patrick-tomasso-208114-unsplash-1024x768.jpg ");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  background-size: 100% 100%;
+}
