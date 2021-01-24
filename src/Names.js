@@ -7,9 +7,9 @@ export default class Names extends React.Component {
     persons: []
   };
   componentDidMount() {
-    axios.get(`https://jsonplaceholder.typicode.com/users`).then((res) => {
+    axios.get(`https://panorbit.in/api/users.json`).then((res) => {
       console.log(res);
-      this.setState({ persons: res.data });
+      this.setState({ persons: res.data.users });
     });
   }
   render() {
